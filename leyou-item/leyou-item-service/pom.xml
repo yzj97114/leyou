@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>leyou-item</artifactId>
-        <groupId>com.leyou.service</groupId>
+        <groupId>com.leyou.item</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.leyou.service</groupId>
+    <groupId>com.leyou.item</groupId>
     <artifactId>leyou-item-service</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
@@ -45,13 +45,18 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.leyou.service</groupId>
+            <groupId>com.leyou.item</groupId>
             <artifactId>leyou-item-interface</artifactId>
-            <version>${leyou.latest.version}</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.leyou.common</groupId>
+            <artifactId>leyou-common</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
